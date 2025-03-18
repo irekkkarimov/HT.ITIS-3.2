@@ -1,0 +1,7 @@
+
+{
+  "subgraph": "Homework1.GraphQL.MutationService_Schema",
+  "http": {
+    "baseAddress": "http://localhost:8083/graphql"
+  }
+}

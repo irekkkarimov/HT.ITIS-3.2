@@ -1,0 +1,6 @@
+{
+  "subgraph": "Homework1.GraphQL.QueryService_Schema",
+  "http": {
+    "baseAddress": "http://localhost:8081/graphql"
+  }
+}
