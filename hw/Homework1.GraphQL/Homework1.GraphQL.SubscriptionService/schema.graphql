@@ -1,0 +1,11 @@
+﻿schema {
+  subscription: SomeSubscription
+}
+
+type SomeResult {
+  result: Int!
+}
+
+type SomeSubscription {
+  onSomething: SomeResult!
+}

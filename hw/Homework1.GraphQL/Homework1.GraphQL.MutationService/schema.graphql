@@ -1,0 +1,24 @@
+﻿schema {
+  query: SomeQuery
+  mutation: SomeMutation
+}
+
+type Person {
+  id: Int!
+  name: String!
+  age: Int!
+}
+
+type SomeMutation {
+  addPerson(person: PersonInput!): Person!
+}
+
+type SomeQuery {
+  getPerson(id: Int!): Person!
+}
+
+input PersonInput {
+  id: Int!
+  name: String!
+  age: Int!
+}
